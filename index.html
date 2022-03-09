@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Japanese goods delivery" />
+    <meta name="Author" content="Nikita Radkevich" />
+    <meta name="Copyright" content="Nikita Radkevich" />
+
+    <title>SakuraDel</title>
+
+    <link rel="stylesheet" href="./build/CSS/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="upHeader">
+        <div class="upHeader__burger">
+          <img class="upHeader__burger-icon" src="/Icons/burger.svg" alt="burger" />
+        </div>
+
+        <div class="upHeader__nav">
+          <a class="upHeader__nav-item" href="#">News</a>
+          <a class="upHeader__nav-item" href="#">Payment & delivery</a>
+          <a class="logo" href="#">
+            <img class="logo__icon" src="/Icons/Logo.svg" alt="logo" />
+          </a>
+          <a class="upHeader__nav-item" href="#">Refund and warranty</a>
+          <a class="upHeader__nav-item" href="#">Contacts</a>
+        </div>
+
+        <img hidden class="upHeader__search-icon" src="/Icons/search.svg" alt="searching" />
+
+        <div class="upHeader__leftSideWrap">
+          <a class="upHeader__basket-link" href="#">
+            <img src="/Icons/shoppingCart.svg" alt="shoppingCart" class="upHeader__basket-icon"
+          /></a>
+          <a class="upHeader__login-link" href="#">
+            <div class="upHeader__login">
+              <img class="upHeader__login-icon" src="/Icons/manUser.svg" alt="user" />
+              <p class="upHeader__login-txt">Log in</p>
+            </div></a
+          >
+        </div>
+      </div>
+
+      <div class="downHeader">
+        <div class="wrap">
+          <div class="search">
+            <input class="search-input" type="search" id="site-search" placeholder="Search" />
+            <label class="search-" for="site-search">
+              <img class="search-icon" src="/Icons/search.svg" alt="searching"
+            /></label>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="footer-wrap">
+      <div class="footer-wrap-up-side">
+        <h2 class="title">Why should you choose us?</h2>
+
+        <section class="advantages">
+          <img
+            class="advantages__sakura-backgr advantages__sakura-backgr_left-top"
+            src="/build/compressWepbImages/PNG/sakuraSidesbackgr.webp"
+            alt="sakura-backgr"
+          />
+          <img
+            class="advantages__sakura-backgr advantages__sakura-backgr_right-top"
+            src="/build/compressWepbImages/PNG/sakuraSidesbackgr.webp"
+            alt="sakura-backgr"
+          />
+
+          <img
+            class="advantages__sakura-backgr advantages__sakura-backgr_left-bottom"
+            src="/build/compressWepbImages/PNG/sakuraSidesbackgr.webp"
+            alt="sakura-backgr"
+          />
+          <img
+            class="advantages__sakura-backgr advantages__sakura-backgr_right-bottom"
+            src="/build/compressWepbImages/PNG/sakuraSidesbackgr.webp"
+            alt="sakura-backgr"
+          />
+
+          <div class="wrap">
+            <div class="advantages__wrap">
+              <div class="advantages__item">
+                <img src="/Icons/earth.svg" alt="earth" class="advantages__icon" />
+                <p class="advantages__txt">Delivery anywhere in the world</p>
+              </div>
+              <div class="advantages__item">
+                <img src="/Icons/bike.svg" alt="bike" class="advantages__icon" />
+                <p class="advantages__txt">Fast delivery</p>
+              </div>
+              <div class="advantages__item">
+                <img src="/Icons/samuraiHelmet.svg" alt="samuraiHelmet" class="advantages__icon" />
+                <p class="advantages__txt">Purchase security</p>
+              </div>
+            </div>
+
+            <div class="advantages__wrap advantages__wrap_down">
+              <div class="advantages__item">
+                <img src="/Icons/cat.svg" alt="cat" class="advantages__icon" />
+                <p class="advantages__txt">Regular discounts</p>
+              </div>
+              <div class="advantages__item">
+                <img src="/Icons/mountain.svg" alt="mountain" class="advantages__icon" />
+
+                <p class="advantages__txt">HIGH ratings</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="discount">
+          <div class="wrap">
+            <h2 class="title">Discounts</h2>
+            <div class="discount__items-block">
+              <a class="discount__item" href="#">
+                <p class="discount__title">Read whole day</p>
+                <p class="discount__desc">Discounts on all manga</p>
+                <img
+                  src="/build/compressWepbImages/PNG/mangaDiscounts.webp"
+                  alt="sale"
+                  class="discount__icon"
+                />
+              </a>
+              <a class="discount__item" href="#">
+                <p class="discount__title">Look like a queen</p>
+                <p class="discount__desc">Discounts on all cosmetics</p>
+                <img
+                  src="/build/compressWepbImages/PNG/cosmeticDiscounts.webp"
+                  alt="cosmetic"
+                  class="discount__icon"
+                />
+              </a>
+              <a class="discount__item" href="#">
+                <p class="discount__title">Surprise someone's gaze</p>
+                <p class="discount__desc">Discounts on all cosplay things</p>
+                <img
+                  src="/build/compressWepbImages/PNG/cosplayDiscounts.webp"
+                  alt="cosplay"
+                  class="discount__icon"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="catalog">
+          <div class="wrap">
+            <h2 class="title">Catalog</h2>
+            <div class="catalog__container">
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_Сosmetics" href="#">
+                  <h3 class="catalog__title">Сosmetics</h3>
+                  <p class="catalog__japan-txt">化粧</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_Manga" href="#">
+                  <h3 class="catalog__title">Manga</h3>
+                  <p class="catalog__japan-txt">漫画</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_Snacks" href="#">
+                  <h3 class="catalog__title">Snacks</h3>
+                  <p class="catalog__japan-txt">軽食</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_AnimeFigures" href="#">
+                  <h3 class="catalog__title">Anime figures</h3>
+                  <p class="catalog__japan-txt">コレクションフィ</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_SoftToys" href="#">
+                  <h3 class="catalog__title">Soft toys</h3>
+                  <p class="catalog__japan-txt">ぬいぐるみ</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_VideoGames" href="#">
+                  <h3 class="catalog__title">Video games</h3>
+                  <p class="catalog__japan-txt">ビデオゲーム</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_TraditionFigures" href="#">
+                  <h3 class="catalog__title">Tradition figures</h3>
+                  <p class="catalog__japan-txt">伝統</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_Kimono" href="#">
+                  <h3 class="catalog__title">Kimono</h3>
+                  <p class="catalog__japan-txt">着物</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_KeyChains" href="#">
+                  <h3 class="catalog__title">Key chains</h3>
+                  <p class="catalog__japan-txt">キーホルダー</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_ManekiNeko" href="#">
+                  <h3 class="catalog__title">Maneki-neko</h3>
+                  <p class="catalog__japan-txt">招き猫</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_Drinks" href="#">
+                  <h3 class="catalog__title">Drinks</h3>
+                  <p class="catalog__japan-txt">飲み物</p>
+                </a>
+              </div>
+              <div class="catalog__item-wrap">
+                <a class="catalog__item catalog__item_Fans" href="#">
+                  <h3 class="catalog__title">Fans</h3>
+                  <p class="catalog__japan-txt">ファン</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="review">
+          <div class="wrap">
+            <h2 class="title">What our customers say about us</h2>
+
+            <div class="review__wrap">
+              <div class="review__item">
+                <div class="review__item-up-side">
+                  <img
+                    src="/Icons/cherryBlossomWhite.svg"
+                    alt="cherryBlossomWhite"
+                    class="review__up-side-icon"
+                  />
+                  <p class="review__txt">
+                    Kurumi stiffened for a little, but after a while she slowly turned her head to
+                    the side. “Regretfully. I don’t know any other Spirits.” “Eh……” It was the
+                    Spirits who formed this neighboring world. Tokisaki Kurumi was among one of
+                    them. To be able to create whatever world desirable, what sort of feeling would
+                    that be? Empty imagined a girl who would create an empty city within an empty
+                    world. Fearful of the great power of the Spirits, no one would dare to invade
+                    this world.
+                  </p>
+                  <hr class="review__line" />
+                </div>
+
+                <div class="review__item-down-side">
+                  <div class="review__avatar-and-icons-wrap">
+                    <img
+                      src="/Icons/cherryBlossomGray.svg"
+                      alt="cherryBlossomGray"
+                      class="review__down-side-icon"
+                    /><img
+                      src="/build/compressWepbImages/JPEG/avatar_1.webp"
+                      alt="avatar"
+                      class="review__avatar"
+                    />
+                    <img
+                      src="/Icons/cherryBlossomGray.svg"
+                      alt="cherryBlossomGray"
+                      class="review__down-side-icon"
+                    />
+                  </div>
+                  <p class="review__name">Christina Grimmie</p>
+                </div>
+              </div>
+
+              <div class="review__item">
+                <div class="review__item-up-side">
+                  <img
+                    src="/Icons/cherryBlossomWhite.svg"
+                    alt="cherryBlossomWhite"
+                    class="review__up-side-icon"
+                  />
+                  <p class="review__txt">
+                    Going to that castle, anyone could use magic. Any girl could become a Cinderella
+                    princess. She felt that the castle was beckoning to her. “Castle……? To me, I can
+                    only see a tombstone.” “I-If you say it like that, it may end up looking like
+                    that. Can you not give such a sinister association to the place we are going
+                    to!?” Certainly it did also look like a grave. A huge tomb fit for a king. If
+                    so, would they be grave robbers? Kurumi smiled as she spoke. “The tenth region
+                    (Malkuth) was originally in the possession of a Spirit. So, all of us are
+                    illegal intruders here.”
+                  </p>
+                  <hr class="review__line" />
+                </div>
+
+                <div class="review__item-down-side">
+                  <div class="review__avatar-and-icons-wrap">
+                    <img
+                      src="/Icons/cherryBlossomGray.svg"
+                      alt="cherryBlossomGray"
+                      class="review__down-side-icon"
+                    /><img
+                      src="/build/compressWepbImages/JPEG/avatar_2.webp"
+                      alt="avatar"
+                      class="review__avatar"
+                    />
+                    <img
+                      src="/Icons/cherryBlossomGray.svg"
+                      alt="cherryBlossomGray"
+                      class="review__down-side-icon"
+                    />
+                  </div>
+                  <p class="review__name">Hallie Eisenberg</p>
+                </div>
+              </div>
+
+              <div class="review__item">
+                <div class="review__item-up-side">
+                  <img
+                    src="/Icons/cherryBlossomWhite.svg"
+                    alt="cherryBlossomWhite"
+                    class="review__up-side-icon"
+                  />
+                  <p class="review__txt">
+                    After Empty said that, Kurumi rolled her eyes up──and then cheerfully laughed
+                    from the bottom of her heart. “Yes, yes, that’s right. I am a beautiful girl.”
+                    As Kurumi finished speaking, she covered up the corners of her mouth. ……Well, it
+                    looked like she was in a good mood. Empty made the utmost effort to move as
+                    positively as possible as the shopping mall was finally within sight. The
+                    shopping mall, which was covered in pink and white mosaic tiles, was shaped just
+                    like a mysterious castle from a fairy tale.
+                  </p>
+                  <hr class="review__line" />
+                </div>
+
+                <div class="review__item-down-side">
+                  <div class="review__avatar-and-icons-wrap">
+                    <img
+                      src="/Icons/cherryBlossomGray.svg"
+                      alt="cherryBlossomGray"
+                      class="review__down-side-icon"
+                    /><img
+                      src="/build/compressWepbImages/JPEG/avatar_3.webp"
+                      alt="avatar"
+                      class="review__avatar"
+                    />
+                    <img
+                      src="/Icons/cherryBlossomGray.svg"
+                      alt="cherryBlossomGray"
+                      class="review__down-side-icon"
+                    />
+                  </div>
+                  <p class="review__name">Sanaya Irani</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="footer-wrap-down-side">
+        <footer class="footer">
+          <img
+            class="footer__sakura-backgr"
+            src="/build/compressWepbImages/PNG/sakuraFooterbackgr.webp"
+            alt="sakura-backgr"
+          />
+          <div class="wrap">
+            <div class="upFooter">
+              <div class="upFooter__desc">
+                <a class="logo__upFooter logo" href="#"
+                  ><img class="logo__icon" src="/Icons/Logo.svg" alt="logo" />
+                </a>
+
+                <p class="upFooter__desc-txt">
+                  We give a opportunity touching the culture of the land of the rising sun in the
+                  most easy way.
+                </p>
+              </div>
+
+              <div class="upFooter__vertical-line"></div>
+
+              <div class="upFooter__nav">
+                <ul class="upFooter__list">
+                  <li class="upFooter__nav-title footer-title">Information</li>
+                  <a href="#" class="upFooter__a"><li class="upFooter__li">Privacy policy</li></a>
+                  <a href="#" class="upFooter__a"
+                    ><li class="upFooter__li">Terms & Conditions</li></a
+                  >
+                  <a href="#" class="upFooter__a"><li class="upFooter__li">FAQ</li></a>
+                  <a href="#" class="upFooter__a"><li class="upFooter__li">License</li></a>
+                </ul>
+
+                <div class="upFooter__vertical-line"></div>
+
+                <ul class="upFooter__list">
+                  <li class="upFooter__nav-title footer-title">About</li>
+                  <a href="#" class="upFooter__a"><li class="upFooter__li">Support</li></a>
+                  <a href="#" class="upFooter__a"><li class="upFooter__li">Team</li></a>
+                  <a href="#" class="upFooter__a"><li class="upFooter__li">Contacts</li></a>
+                </ul>
+              </div>
+
+              <div class="upFooter__vertical-line"></div>
+
+              <div class="upFooter__subscription">
+                <p class="upFooter__subscription-title footer-title">Subscribe now</p>
+
+                <div class="subscription">
+                  <input type="email" placeholder="Your email" class="subscription__input" />
+                  <button class="subscription__btn">
+                    <img src="/Icons/arrow.svg" alt="arrow" class="subscription__icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="downFooter">
+              <hr class="downFooter__horizontal-line" />
+
+              <div class="downFooter__wrap">
+                <p class="copyright">© N. V. Radkevich, 2021 All rights reserved</p>
+                <div class="social">
+                  <a href="#" class="social__link"
+                    ><img src="/Icons/twitter.svg" alt="twitter" class="social__i" />
+                  </a>
+
+                  <a href="#" class="social__link"
+                    ><img src="/Icons/messenger.svg" alt="messenger" class="social__i" />
+                  </a>
+
+                  <a href="#" class="social__link"
+                    ><img src="/Icons/reddit.svg" alt="reddit" class="social__i" />
+                  </a>
+
+                  <a href="#" class="social__link"
+                    ><img src="/Icons/facebook.svg" alt="facebook" class="social__i" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
