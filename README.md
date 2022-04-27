@@ -1,1 +1,1 @@
-# SakuraDel — https://gradcher.github.io/SakuraDel/index
+# SakuraDel — https://gradcher.github.io/SakuraDel/index.html
